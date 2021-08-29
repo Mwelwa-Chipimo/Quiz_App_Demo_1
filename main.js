@@ -44,7 +44,7 @@ var QuizFormComponent = {
     components: {
         'quiz-question': QuizQuestionComponent,
         'quiz-report': QuizReportComponent,
-        'quiz-ans-explanation': QuizAnsExplanationComponent
+        'quiz-ans-explanation': QuizAnsExplanationComponent,
 
     },
 
@@ -58,11 +58,15 @@ var QuizFormComponent = {
                 {
                     qstId: 1,
                     category: 0,
-                    qstText: "WHich of the following could lead to an increase in the supply for quad bikes?",
-                    optA: "A. A decrease in the number of sellers of quad bikes.",
-                    optB: "B. An increase in the price of inputs used to make quad bikes.",
-                    optC: "C. An increase in consumers' income, assuming quad bikes are a normal good.",
-                    optD: "D. An improvement in technology used in the production of quad bikes.",
+                    qstText: "If the principal concern of economics is the question of how best to use society’s\
+                     resources, then economics would be irrelevant if",
+                    isImage: 0,
+                    qstImage: "",
+                    optA: "A. we had unlimited wants.",
+                    optB: "B. economics were organised around command rather than market principles.",
+                    optC: "C. economics were organised around the market rather than command principles.",
+                    optD: "D. resources were available in unlimited quantities.",
+                    optE: "E. incomes were distributed more equally.",
                     userInput: null,
                     correctAns: "D",
                     explanation: "Supply reflects the quantity of a good or service that producers are willing to supply at each price point in a given time.\
@@ -72,11 +76,15 @@ var QuizFormComponent = {
                 {
                     qstId: 2,
                     category: 1,
-                    qstText: "Which of the following events will cause an increase in the market demand for Castle (a brand of beer)?",
-                    optA: "A. An increase in the price of Lion (another brand of beer).",
-                    optB: "B. A decrease in the price of Castle.",
-                    optC: "C. An increase in the price of Messaris peanuts (a complementary good).",
-                    optD: "D. An increase in income, if Castle is an inferioir good.",
+                    qstText: "In the circular flow of economic activity, __________ households in __________ markets represents\
+                     __________ firms. Taxes and imports represent __________ in the cicular flow.",
+                    isImage: 0,
+                    qstImage: "",
+                    optA: "A. expenditure by; goods; income to; injections into",
+                    optB: "B. expenditure by; factor; income to; withdrawals from",
+                    optC: "C. income to; factor; expenditure by; withdrawals from",
+                    optD: "D. income to; goods; expenditure by; injections into",
+                    optE: "E. expenditure by; factor; income to; injections into",
                     userInput: null,
                     correctAns: "A",
                     explanation: "Demand reflects the quantity of a good or service that potential buyers are willing to purchase at each price point in a given time period.\
@@ -88,13 +96,14 @@ var QuizFormComponent = {
                 {
                     qstId: 3,
                     category: 0,
-                    qstText: "Savers Shopping Store is the main store in a small village. It orders 500 bottles of milk each week and sells them at a price of R20.00\
-                    per bottle. At the end of the first week, they have only sold 280 bottles. What economic situation is the store facing and what will have to\
-                    happen to the price in order for equilibrium to be attained?",
-                    optA: "A. Surplus. price will rise",
-                    optB: "B. Shortage; price will fall.",
-                    optC: "C. Surplus; price will fall.",
-                    optD: "D. Shortage: price will rise.",
+                    qstText: "The law of supply states that, ceteris paribus,",
+                    isImage: 0,
+                    qstImage: "",
+                    optA: "A. firms’ supply will increase if the price rises.",
+                    optB: "B. the market price will rise if the supply is higher.",
+                    optC: "C. the quantity supplied will increase if the price rises.",
+                    optD: "D. firms’ supply will increase if technology improves.",
+                    optE: "E. a decrease in supply will decrease the price.",
                     userInput: null,
                     correctAns: "C",
                     explanation: "At a price of R20.00 there will be a surplus of 220 bottles of milk because the quantity supplied (500 bottles) will be greater than the\
@@ -105,20 +114,135 @@ var QuizFormComponent = {
                 {
                     qstId: 4,
                     category: 1,
-                    qstText: "A person stocks shelves at a grocery store and receives a wage. They have completed an exchange in which part of the circular flow model?.",
-                    optA: "A. Product Market.",
-                    optB: "B. Business/Firm.",
-                    optC: "C. Factor Market.",
-                    optD: "D. Individuals.",
+                    qstText: "The price of party balloons is 20 percent higher this year than it was last\
+                     year, while the quantity sold increased by 10 percent. The cause of this is possibly",
+                    isImage: 0,
+                    qstImage: "",
+                    optA: "A. that the cost of rubber (of which balloons are made) has increased.",
+                    optB: "B. that the price of rubber gloves (which is a substitute in production) has increased.",
+                    optC: "C. that people’s incomes have decreased (balloons are a normal product).",
+                    optD: "D. that people are having more parties this year.",
+                    optE: "E. because all of the above are correct.",
                     userInput: null,
                     correctAns: "C",
                     explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
                     The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
                     (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
+                    income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"                   
+                },
+                {
+                    qstId: 5,
+                    category: 0,
+                    qstText: "Suppose the price elasticity of demand for rugby balls is 1.20. A 15 percent increase in price\
+                     will result in",
+                    isImage: 0,
+                    qstImage: "",
+                    optA: "A. an 18 percent decrease in the quantity of rugby balls demanded.",
+                    optB: "B. a 15 percent decrease in the quantity of rugby balls demanded.",
+                    optC: "C. an 8 percent decrease in the number of rugby balls demanded.",
+                    optD: "D. a 12.5% percent decrease in the number of rugby balls demanded.",
+                    optE: "E. an 8 percent increase in the quantity of rugby balls demanded.",
+                    userInput: null,
+                    correctAns: "D",
+                    explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
+                    The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
+                    (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
                     income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"
-                    
+                },
+                {
+                    qstId: 6,
+                    category: 1,
+                    qstText: "Suppose there is an increase in the price of margarine, a substitute product for butter.\
+                     This causes, ceteris paribus,",
+                    isImage: 0,
+                    qstImage: "",
+                    optA: "A. a rightward move along the supply curve for butter and a butter price increase.",
+                    optB: "B. a rightward shift of the supply curve for butter and a butter price increase.",
+                    optC: "C. a rightward shift of the supply curve for butter and a butter price decrease.",
+                    optD: "D. a leftward shift of the supply curve for butter and a butter price decrease.",
+                    optE: "E. a leftward move along the supply curve for butter and a butter price decrease.",
+                    userInput: null,
+                    correctAns: "D",
+                    explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
+                    The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
+                    (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
+                    income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"
+                },
+                {
+                    qstId: 7,
+                    category: 1,
+                    qstText: "In the graph below, both the demand and the supply curves are linear. The supply function is",
+                    isImage: 1,
+                    qstImage: "images/question_7.png",
+                    optA: "A. Qs = (2/30)P + 2",
+                    optB: "B. Qs = 5P − 10",
+                    optC: "C. Qs = 2P + 15",
+                    optD: "D. Qs = 15P − 30",
+                    optE: "E. not clear given the information on the graph.",
+                    userInput: null,
+                    correctAns: "D",
+                    explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
+                    The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
+                    (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
+                    income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"
+                },
+                {
+                    qstId: 8,
+                    category: 1,
+                    qstText: "The table below lists six points on the PPF for grain and cars. What is the\
+                     opportunity cost of producing the fifth ton of grain?",
+                    isImage: 1,
+                    qstImage: "images/question_8.png",
+                    optA: "A. 10 cars.",
+                    optB: "B. 6 cars.",
+                    optC: "C. 3 cars.",
+                    optD: "D. 12 cars.",
+                    optE: "E. It cannot be calculated with the given information.",
+                    userInput: null,
+                    correctAns: "D",
+                    explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
+                    The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
+                    (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
+                    income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"
+                },
+                {
+                    qstId: 9,
+                    category: 1,
+                    qstText: "In an economy with a production possibility frontier represented below,",
+                    isImage: 1,
+                    qstImage: "images/question_9.png",
+                    optA: "A. factors of production are equally good at making goods X and Y.",
+                    optB: "B. the opportunity cost of increasing the output of good X is decreasing.",
+                    optC: "C. the opportunity cost of increasing the output of good Y is zero.",
+                    optD: "D. the opportunity cost of increasing the output of good Y is increasing.",
+                    optE: "E. at any point in time you can produce either good X or good Y, but not both.",
+                    userInput: null,
+                    correctAns: "D",
+                    explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
+                    The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
+                    (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
+                    income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"
+                },
+                {
+                    qstId: 10,
+                    category: 1,
+                    qstText: "Using the midpoint method, what is the income elasticity\
+                     of good Y according to the table below?",
+                    isImage: 1,
+                    qstImage: "images/question_10.png",
+                    optA: "A. -3.33",
+                    optB: "B. -2.33",
+                    optC: "C. 1.33",
+                    optD: "D. 2.33",
+                    optE: "E. -1.33",
+                    userInput: null,
+                    correctAns: "D",
+                    explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
+                    The transactions, in this model, either occur in the factor market or the product market. In the factor market, individuals sells their labour\
+                    (a factor of production) to businesses/firms in exchange for an income/wage. In the product market, individuals purchase goods or services from firms with the\
+                    income/wages that they receive. The type of exchange described in the question represents a transaction in the factor market,"
                 }
-                
+
             ],
             categories: {
                 category_1: 0,
