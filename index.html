@@ -42,14 +42,17 @@
             <h1>Revision Quiz</h1>
 
             <div id="quiz-information">
-                <p>This is a short MCQ designed to help you revise in preparation for your test.
+                <p>
+                    This is a short MCQ quiz designed to help you revise fro your upcoming test 1. The questions in this quiz are taken from the 2017 Test 1 past paper.
                     You can view the answers to the questions and their explanations once you have completed the quiz.
                 </p>
 
-                <p>Topic: Test 1</p>
+                <p>Topic: ECO1007S Test 1</p>
                 <p>Number of Questions: 10</p>
 
-                <p>Please ensure that you <span><strong>ATTEMPT EVERY QUESTION</strong></span> before you submit the quiz.</p>
+                <p>You will not be able to submit your answers unless you <span><strong>ATTEMPT EVERY QUESTION.</strong></span></p>
+
+                <p></p>
             </div>
 
             <div class="feedback-success" v-if="isCompleted">
@@ -86,6 +89,8 @@
                     </div>
                 </div>
 
+                <p>Kindly fill in the feedback form to let us know, what you think of the revision quiz <a href="https://forms.gle/dhtrr4MKpEoAkZmz5" target="_blank"><strong>here</strong></a></p> 
+
                 <button :class="['btn', 'btn-lg', 'btn-block', (isCompleted) ? 'btn-secondary' : 'btn-success' ]" type="submit" :disabled="isCompleted">
                     {{ isCompleted ? 'Submitted' : 'Submit' }}</button>
             </form>
@@ -100,11 +105,12 @@
             <a v-on:click="show = !show">
               <span class="show-explanation">{{ !show ? 'SEE EXPLANATION' : 'HIDE EXPLANATION' }}</span>
             </a>
-            <transition name="fade">
-            <div class="explanation">
-                <p v-if="show">
+            <transition>
+            <div class="explanation" v-if="show">
+                <img class="explainImg" v-if="question.isExplainImage" :src="question.explainImg" />
+                <p v-else>
                     <b>Explanation:</b> {{question.explanation}}
-                </p>
+                </p>   
             </div>
             </transition>
         </div>
@@ -120,7 +126,7 @@
             <div class="form-group question-text">
                 <p>{{question.qstText}}</p>
             </div>
-            <div class="form-group question-image" v-if="question.isImage">
+            <div class="form-group question-image" v-if="question.isQstImage">
                 <img class="qstImg" :src="question.qstImage" />
             </div>
 

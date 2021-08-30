@@ -48,7 +48,14 @@ p{
 .qstImg {
   margin-left: auto;
   margin-right: auto;
-  width:80%;
+  width: 95%;
+  height: auto;
+}
+
+.explainImg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   height: auto;
 }
 
