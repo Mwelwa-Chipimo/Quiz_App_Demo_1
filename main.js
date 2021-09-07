@@ -182,16 +182,18 @@ var QuizFormComponent = {
                     isQstImage: 0,
                     qstImage: "",
                     optA: "A. a rightward move along the supply curve for butter and a butter price increase.",
-                    optB: "B. a rightward shift of the demand curve for butter and a butter price increase.",
+                    optB: "B. a rightward shift of the supply curve for butter and a butter price increase.",
                     optC: "C. a rightward shift of the supply curve for butter and a butter price decrease.",
                     optD: "D. a leftward shift of the supply curve for butter and a butter price decrease.",
                     optE: "E. a leftward move along the supply curve for butter and a butter price decrease.",
                     userInput: null,
-                    correctAns: "B",
+                    correctAns: "A",
                     isExplainImage: 0,
                     explainImg: "",
-                    explanation: "This is because margarine becomes relatively more expensive compared to butter, and\
-                    so people are willing to buy more butter indicated by an increase in the demand of butter."
+                    explanation: "Butter and margarine are substitute goods. As a result, an increase in the price of margarine \
+                    will lead to an increase in the demand for butter - a rightward shift of the demand curve. This will lead to \
+                    a higher price of butter. At this higher price, producers/suppliers of butter will increase the quantity supplied \
+                    of butter - a movement along the supply curve."
                 },
                 {
                     qstId: 7,
@@ -205,7 +207,7 @@ var QuizFormComponent = {
                     optD: "D. Qs = 15P − 30",
                     optE: "E. not clear given the information on the graph.",
                     userInput: null,
-                    correctAns: "A",
+                    correctAns: "D",
                     isExplainImage: 1,
                     explainImg: "images/expImg_7.png",
                     explanation: "Individuals and businesses/firms are two economic agents that engage in exchanges/transactions with eaxh other in the circular flow model of payments.\
